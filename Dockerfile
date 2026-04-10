@@ -11,4 +11,4 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Run app
-CMD ["python", "myapp.py"]
+CMD ["python", "Bank.py"]
